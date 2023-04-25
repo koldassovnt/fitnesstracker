@@ -1,0 +1,3 @@
+CREATE USER fitnesser WITH ENCRYPTED PASSWORD 'jAbTaEgVu9y5guR68g6RU37hU4CeY6';
+CREATE DATABASE fitness_tracker WITH OWNER fitnesser;
+GRANT ALL ON DATABASE fitness_tracker TO fitnesser;
